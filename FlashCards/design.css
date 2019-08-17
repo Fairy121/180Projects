@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#042940;
+}
+#title {
+    font-family:'Livvic';
+    font-size:45px;
+    color:cadetblue;
+    text-align:center;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.flashcard-info{
+    padding:30px;
+
+
+}
+.flashcard-container , .flashcard-info{
+    width:80%;
+    margin:0 auto;
+    margin-top:60px;
+
+}
+.flashcard-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:20px;
+}
+.card-info{
+    border-style:none;
+    padding:15px;
+    width:100%;
+    margin-top:10px;
+    background-color:white;
+  
+}
+.header{
+    width:100%;
+    height:100px;
+ 
+    position:relative;
+}
+.play{
+    background-image:linear-gradient(#de14ca,#b87af5);
+    border-radius:100px;
+    width:16%;
+    font-size:18px;
+    display:inline-block;
+    position:absolute;
+    left:5%;
+
+
+
+    color:white;
+}   
+button{
+    font-family:'Livvic';
+    padding:15px 20px;
+    border-style:none;
+
+    width:20%;
+    margin-top:30px;
+    color:cadetblue;
+    font-weight:bold;
+    font-size:25px;
+    background-color:ghostwhite;
+    
+}
+.flashcard-card{
+   padding:30px;
+    background-color:white;
+    box-shadow: 2px 8px 4px dodgerblue;
+    
+}
+.flashcard-card > h1{
+    font-family:'Merriweather';
+    font-size:19px;
+}
+.flashcard-card > p {
+    font-family:'Livvic';
+    margin-top:30px;
+    font-size:17px;
+}
+.practice-container{
+    width:80%;
+    height:500px;
+    background-color:white;
+    position:absolute;
+    left:50%;
+    top:70%;
+    display:None;
+    transform:translate(-50%,-50%);
+}
